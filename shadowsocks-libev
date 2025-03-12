@@ -46,7 +46,7 @@ config ss_server
         option method 'aes-256-cfb'
 
 config server 'test'
-        option server '109.176.229.60'
+        option server '119.176.229.60'
         option server_port '443'
         option method 'chacha20-ietf-poly1305'
         option password 'myrat777'
