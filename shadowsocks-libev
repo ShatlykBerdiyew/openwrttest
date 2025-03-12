@@ -46,10 +46,10 @@ config ss_server
         option method 'aes-256-cfb'
 
 config server 'test'
-        option server '119.176.229.60'
+        option server '185.229.66.129'
         option server_port '443'
         option method 'chacha20-ietf-poly1305'
-        option password 'myrat777'
+        option password 'myrat111'
         option local_port '1100'
         option mode 'tcp_and_udp'
         option timeout '60'
